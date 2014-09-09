@@ -12,6 +12,7 @@ ul.nav {
 	font-size: 13px;
 }
 
+
 footer {
 	background-color: #e74c3c;
 	padding-top: 150px;
@@ -117,6 +118,14 @@ footer {
 	-moz-border-radius: 24px;
 }
 
+.modal-dialog {
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -173px;
+}
+
 
 /* Responsive Styling */
 
@@ -172,8 +181,48 @@ footer {
 		font-size: 18px;
 	}
 
-	.hompage p {
+	.homepage p {
 		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+}
+
+@media (max-width: 349px) {
+	
+	.jumbotron h1 {
+	font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.homepage h2 {
+		font-size: 26px
+	}
+
+	#get-involved h2 {
+		font-size: 23px;
+	}
+	.col-md-4 h3 {
+		font-size: 20px
+	}
+	#get-involved p {
+		font-size: 18px;
+		margin: 0;
 	}
 
 	footer img {
