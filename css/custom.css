@@ -12,7 +12,6 @@ ul.nav {
 	font-size: 13px;
 }
 
-
 footer {
 	background-color: #e74c3c;
 	padding-top: 150px;
@@ -190,7 +189,7 @@ footer {
 	}
 }
 
-@media (max-width: 349px) {
+@media (max-width: 479px) {
 	
 	.jumbotron h1 {
 	font-size: 24px;
